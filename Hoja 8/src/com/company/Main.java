@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args)throws IOException {
 	// write your code here
-        VectorHeap<Paciente> pacientes = new VectorHeap<Paciente>();
+        VectorHeap<Paciente> pacientes = new VectorHeap<>();
         Scanner input = new Scanner(System.in);
         System.out.println("Ingrese el nombre del archivo de texto que contiene el diccionario.\n");
         File file = new File(input.nextLine());
